@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
       </head>
       <body>
         <h1>Rota 1</h1>
-        <p>Esta é a rota 1.</p>
+        <p>Esta é a rota principal</p>
       </body>
     </html>
   `);
@@ -25,7 +25,7 @@ app.get('/sobre', (req, res) => {
       </head>
       <body>
         <h1>Rota 2</h1>
-        <p>Esta é a rota 2.</p>
+        <p>Esta é a rota sobre</p>
       </body>
     </html>
   `);
@@ -40,7 +40,7 @@ app.get('/contato', (req, res) => {
       </head>
       <body>
         <h1>Rota 3</h1>
-        <p>Esta é a rota 3.</p>
+        <p>Esta é a rota contatos.</p>
       </body>
     </html>
   `);
